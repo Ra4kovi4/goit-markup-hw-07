@@ -1,0 +1,13 @@
+//логотип
+.logo {
+  display: block;
+  font-family: Raleway, sans-serif;
+  @include view(26px, 1.19, 0.03em);
+  text-decoration: none;
+  &__part {
+    color: $accent-color;
+  }
+  &__label {
+    color: $accent-color;
+  }
+}

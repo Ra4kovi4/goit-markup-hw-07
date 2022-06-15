@@ -1,0 +1,44 @@
+/* Команда */
+.team {
+  max-width: 1600px;
+  padding: 94px 0;
+  margin: 0 auto;
+  background-color: $secondary-btn-color;
+}
+.container__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(30px * -1);
+  margin-top: calc(30px * -1);
+}
+.team__title {
+  margin-bottom: 50px;
+}
+.team-list__item {
+  width: calc(100% / 4 - 30px);
+  margin-left: $margin-item;
+  margin-top: $margin-item;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  background-color: $primary-bgc;
+}
+
+.team-container {
+  padding: 30px 32px;
+}
+.team-container__title,
+.team-container__text {
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-container__title {
+  margin-bottom: 10px;
+  color: $secondary-color-text;
+  font-weight: 500;
+}
+.team-container__text {
+  margin-bottom: 16px;
+}

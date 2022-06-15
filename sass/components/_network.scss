@@ -1,0 +1,33 @@
+.networks {
+  display: flex;
+}
+
+.networks__item:not(:last-child) {
+  margin-right: 10px;
+}
+.networks__link {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+  transition: background-color 250ms $hover-timing, color 250ms var(--hover-timing);
+}
+.networks__link {
+  &--light {
+    color: $icon-color;
+  }
+  &--dark {
+    color: $secondary-accent-color;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.networks__link {
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $secondary-accent-color;
+  }
+}
+.networks__icon {
+  fill: currentColor;
+}

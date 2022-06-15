@@ -1,0 +1,35 @@
+/* Оформление деятельности */
+.about {
+  padding-bottom: 94px;
+}
+.about-title {
+  margin-bottom: 50px;
+}
+.work {
+  display: flex;
+}
+.work__item {
+  margin-right: $margin-item;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+.work-thumb {
+  position: relative;
+}
+.work-thumb__title {
+  position: absolute;
+  bottom: 0;
+
+  @include flex;
+  width: 100%;
+  height: 70px;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  color: $secondary-accent-color;
+}

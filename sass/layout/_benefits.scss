@@ -1,0 +1,35 @@
+//Преимущества
+.benefits {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.benefits__title {
+  margin-bottom: 50px;
+}
+.benefits__list {
+  display: flex;
+}
+.benefits__item {
+  width: 270px;
+}
+.benefits__item:not(:last-child) {
+  margin-right: $margin-item;
+}
+.benefits__thumb {
+  @include flex();
+  height: 120px;
+
+  margin-bottom: $margin-item;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.benefits__subtitle {
+  color: $secondary-color-text;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.benefits__text {
+  line-height: 1.71;
+}
